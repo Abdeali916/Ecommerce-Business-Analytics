@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Power BI temporary / backup
+*.pbit
+~$*.pbix
+*.tmp
+*.bak
+
+# SQL Server local database files
+*.mdf
+*.ndf
+*.ldf
+
+# Logs
+*.log
